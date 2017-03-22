@@ -1,0 +1,37 @@
+@import "base";
+
+header {
+    background-color: $secondary-color;
+    color: $transparent;
+    height: 6em;
+    nav.navbar {
+        padding-top: 1em;
+        text-transform: uppercase;
+        font-weight: bold;
+        a {
+            color: $transparent;
+        }
+        .navbar-brand {
+            font-size: 1.5em;
+        }
+    }
+}
+
+main {
+    section:nth-child(1) {
+        padding: 8em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: $primary-color;
+        color: $transparent;
+        h1 {
+            text-transform: uppercase;
+            font-size: 5em;
+        }
+        span {
+            font-size: 2em;
+        }
+    }
+}
